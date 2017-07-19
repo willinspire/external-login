@@ -2,8 +2,6 @@
   <html>
     <head>
     <title>Fairity Login</title>
-    
-<!— ****** META CONFIGURATIONS ****** —>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="description" content="Login to your Fairity account here.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +11,23 @@
           width: 100%;
           height: 100%;
         }
+        .bg {
+        /* Full height */
+        height: 100%; 
+    width: 100%;
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    margin: 0;
+    }
+        body, html {
+        margin: 1;
+    }
       </style>
   </head>
   <body>
-    <iframe style="border:0px #ffffff none;" width="100%" height="100%" src="https://member.fairity.life/" scrolling="no" overflow="auto" frameborder="0" allowfullscreen="">
+    <iframe style="border:0px #ffffff none;" width="100%" height="100%" id="bg" src="https://member.fairity.life/" scrolling="no" overflow="auto" frameborder="0" allowfullscreen="">
     </iframe>
   </body>
 </html>
